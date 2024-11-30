@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: BE_OB_i8c_EdgeProject
+  gitServerName: BE_OB_i8c_Github
+  gitUrl: https://github.com/baeldos
+  gitUsername: baeldos
+  gitBranch: main
