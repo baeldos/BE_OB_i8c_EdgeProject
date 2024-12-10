@@ -98,7 +98,7 @@
 </MAP>
 </INVOKE>
 
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+<INVOKE NAME="BE_OB_i8c_GitTestPackage" SERVICE="BE_OB_i8c_GitTestPackage:some_flow_service">
   <COMMENT></COMMENT>
-</SEQUENCE>
+</INVOKE>
 </FLOW>

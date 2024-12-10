@@ -7,17 +7,19 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="BE_OB_i8c_GitTestPackage">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">6</value>
+  <value name="build">10</value>
   <null name="description"/>
   <value name="created_date">30-11-2024 09:24:22 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-11-30T10:20:26.064907332Z</value>
+  <value name="lastUpdated">2024-12-10T15:23:05.702957108Z</value>
   <value name="wmProjectId">fl3aa5745abb062f8e7f2caf</value>
   <value name="creator">Oscar Baelde</value>
 </Values>

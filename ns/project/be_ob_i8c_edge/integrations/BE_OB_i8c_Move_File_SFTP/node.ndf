@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">oscar.baelde@i8c.be</value>
-    <value name="lastModifiedDate">1732966227219</value>
+    <value name="lastModifiedDate">1733844215262</value>
     <value name="displayName">BE_OB_i8c_Move_File_SFTP</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -73,8 +73,20 @@
         <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">BE_OB_i8c_GitTestPackage</value>
+          <value name="groupName">BE_OB_i8c_GitTestPackage;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">BE_OB_i8c_GitTestPackage:some_flow_service</value>
+          <value name="serviceName">BE_OB_i8c_GitTestPackage:some_flow_service</value>
+          <value name="displayName">some_flow_service</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
@@ -103,4 +115,5 @@
   <null name="originURI"/>
   <value name="modifiable">true</value>
   <value name="is_public">false</value>
+  <value name="is_visible">true</value>
 </Values>
