@@ -8,6 +8,7 @@ packages:
   gitUsername: baeldos
   gitBranch: main
 - name: BE_OB_i8c_GitTestPackage
+  version: "1.0"
   gitServerName: BE_OB_i8c_Github
   gitUrl: https://github.com/baeldos
   gitUsername: baeldos
@@ -17,7 +18,17 @@ services:
   packages:
   - name: BE_OB_i8c_EdgeProject
     version: "1.0"
+  - name: BE_OB_i8c_GitTestPackage
+    version: "1.0"
 - serviceName: pub.math:addInts
   packages:
   - name: WmPublic
-    version: 11.1.0.0.1969
+    version: 11.1.0.0.2015
+- serviceName: BE_OB_i8c_GitTestPackage:some_flow_service
+  packages:
+  - name: BE_OB_i8c_GitTestPackage
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2015
