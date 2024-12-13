@@ -208,8 +208,4 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
-
-<INVOKE TIMEOUT="" SERVICE="pub.flow:clearPipeline" VALIDATE-IN="$none" VALIDATE-OUT="$none">
-  <COMMENT></COMMENT>
-</INVOKE>
 </FLOW>
