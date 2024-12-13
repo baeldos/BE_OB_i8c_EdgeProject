@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">oscar.baelde@i8c.be</value>
-    <value name="lastModifiedDate">1734089256014</value>
+    <value name="lastModifiedDate">1734089474501</value>
     <value name="displayName">BE_OB_i8c_Move_File_SFTP</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -132,6 +132,8 @@
         <value name="nodePathNew">3</value>
         <number name="nodeIndex" type="Long">3</number>
         <number name="lineNumberForDebug" type="Long">4</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">3</value>
       </record>
     </record>
   </record>
