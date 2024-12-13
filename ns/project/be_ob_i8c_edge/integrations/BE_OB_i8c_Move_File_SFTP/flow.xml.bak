@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Math" SERVICE="pub.math:addInts">
+<INVOKE NAME="Math" TIMEOUT="" SERVICE="pub.math:addInts" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -98,11 +98,11 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="BE_OB_i8c_GitTestPackage" SERVICE="BE_OB_i8c_GitTestPackage:some_flow_service">
+<INVOKE NAME="BE_OB_i8c_GitTestPackage" TIMEOUT="" SERVICE="BE_OB_i8c_GitTestPackage:some_flow_service" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
+<INVOKE NAME="Flow" TIMEOUT="" SERVICE="pub.flow:debugLog" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -209,7 +209,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
+<INVOKE TIMEOUT="" SERVICE="pub.flow:clearPipeline" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
