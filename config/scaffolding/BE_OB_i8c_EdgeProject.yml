@@ -14,6 +14,7 @@ packages:
   gitUsername: baeldos
   gitBranch: master
 - name: WmJDBCAdapter
+  version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
