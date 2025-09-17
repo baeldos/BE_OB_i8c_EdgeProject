@@ -23,7 +23,7 @@ services:
 - serviceName: pub.math:addInts
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2015
+    version: 11.1.0.0.2070
 - serviceName: BE_OB_i8c_GitTestPackage:some_flow_service
   packages:
   - name: BE_OB_i8c_GitTestPackage
@@ -31,4 +31,16 @@ services:
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2015
+    version: 11.1.0.0.2070
+- serviceName: project.be_ob_i8c_edge.integrations:BE_OB_i8c_Test_Flow
+  packages:
+  - name: BE_OB_i8c_EdgeProject
+    version: "1.0"
+  - name: BE_OB_i8c_GitTestPackage
+    version: "1.0"
+- serviceName: project.be_ob_i8c_edge.integrations:SaveToDB
+  packages:
+  - name: BE_OB_i8c_EdgeProject
+    version: "1.0"
+  - name: BE_OB_i8c_GitTestPackage
+    version: "1.0"
