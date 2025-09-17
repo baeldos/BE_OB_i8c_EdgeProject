@@ -13,13 +13,30 @@ packages:
   gitUrl: https://github.com/baeldos
   gitUsername: baeldos
   gitBranch: master
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
 services:
+- serviceName: project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:BE_OB_Local_DB1
+  packages:
+  - name: BE_OB_i8c_EdgeProject
+    version: "1.0"
+  - name: BE_OB_i8c_GitTestPackage
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.be_ob_i8c_edge.integrations:BE_OB_i8c_Move_File_SFTP
   packages:
   - name: BE_OB_i8c_EdgeProject
     version: "1.0"
   - name: BE_OB_i8c_GitTestPackage
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: pub.math:addInts
   packages:
   - name: WmPublic
@@ -38,9 +55,64 @@ services:
     version: "1.0"
   - name: BE_OB_i8c_GitTestPackage
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.be_ob_i8c_edge.integrations:SaveToDB
   packages:
   - name: BE_OB_i8c_EdgeProject
     version: "1.0"
   - name: BE_OB_i8c_GitTestPackage
     version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+configurationVariables:
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.keyStore
+  : ""
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.dbType
+  : MySQL
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.databaseName
+  : demo
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.password
+  : "{AES}ePZNQse0Y/3ltkaXIPedVw=="
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.user
+  : root
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.serverName
+  : localhost
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.portNumber
+  : "3306"
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.trustStore
+  : ""
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.otherProperties
+  : loginTimeout=60;
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.minimumPoolSize
+  : "1"
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionEnabled
+  : "false"
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.transactionType
+  : NO_TRANSACTION
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.driverType
+  : mysql
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.datasourceClass
+  : com.mysql.cj.jdbc.MysqlDataSource
