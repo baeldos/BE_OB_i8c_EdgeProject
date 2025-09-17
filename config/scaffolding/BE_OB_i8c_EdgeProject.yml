@@ -77,34 +77,16 @@ configurationVariables:
   : MySQL
   ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.databaseName
   : demo
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.networkProtocol
+  : ""
   ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.password
   : "{AES}ePZNQse0Y/3ltkaXIPedVw=="
-  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.blockingTimeout
-  : "1000"
   ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.user
   : root
   ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.serverName
   : localhost
   ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.portNumber
   : "3306"
-  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.heartBeatInterval
-  : "0"
-  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.startupBackoffSecs
-  : "10"
-  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.trustStore
-  : ""
-  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.expireTimeout
-  : "1000"
-  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.otherProperties
-  : loginTimeout=60;
-  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.networkProtocol
-  : ""
-  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.minimumPoolSize
-  : "1"
-  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.maximumPoolSize
-  : "10"
-  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.startupRetryCount
-  : "0"
   ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionEnabled
   : "false"
   ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.poolable
@@ -113,7 +95,9 @@ configurationVariables:
   : NO_TRANSACTION
   ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.driverType
   : mysql
-  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionManagerSettings.poolIncrementSize
-  : "1"
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.trustStore
+  : ""
   ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.datasourceClass
   : com.mysql.cj.jdbc.MysqlDataSource
+  ? artConnection.BE_OB_i8c_EdgeProject.project.be_ob_i8c_edge.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.BE_OB_Local_DB1.connectionSettings.otherProperties
+  : loginTimeout=60;
